@@ -2,11 +2,14 @@
 	"full_name": "Forge",
 	"email": "forge@lab183.com",
 	"github_username": "Lab183",
-	"project_name": "forge function",
+	"project_name": "",
 	"func_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
 	"repo_name": "forge-{{ cookiecutter.project_name }}",
 	"project_short_description": "AWS Lambda Boilerplate for Forge",
 	"version": "0.1.0",
 	"year": "",
-	"release_date": ""
+	"release_date": "",
+	"s3_bucket": "mybucket",
+	"timeout": 15,
+	"memory": 128
 }
