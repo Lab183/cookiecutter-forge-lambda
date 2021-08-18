@@ -1,0 +1,14 @@
+version: '1.0'
+
+functions:
+
+    HelloWorld:
+        runtime: python38
+        functiontype: synchronous
+        functiontest: '{"name": "alexander"}'
+        sourcefile: {{ cookiecutter.func_name }}.py
+        description: {{ cookiecutter.description }}
+        bucket: {{ cookiecutter.s3_bucket }}
+        role: lambda_basic_execution
+
+ 
