@@ -1,0 +1,12 @@
+{
+	"full_name": "Forge",
+	"email": "forge@lab183.com",
+	"github_username": "Lab183",
+	"project_name": "AWS Lambda Boilerplate for Forge",
+	"func_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+	"repo_name": "{{ cookiecutter.project_slug }}",
+	"project_short_description": "A lambda function that does some stuff.",
+	"version": "0.1.0",
+	"year": "",
+	"release_date": ""
+}
