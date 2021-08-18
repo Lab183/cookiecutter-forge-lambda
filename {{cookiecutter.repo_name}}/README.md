@@ -1,8 +1,8 @@
 # {{cookiecutter.repo_name}}
 
-{{cookiecutter.lambda_name}} is an AWS Lambda function for use with Lambder.
+{{cookiecutter.func_name}} is an AWS Lambda function for use with Lambder.
 
-REQUIRES:
+REQUIRES: 
 * python-lambder
 
 ## Getting Started
